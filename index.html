@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="imagenes/jpv.png" type="image/x-icon">
+    <link rel="icon" href="imagenes/jpv.png" type="image/gif" sizes="48x48">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTADA JPV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-image: url("imagenes/");
+        }
+ div, h1, p, a, video, h2{
+    z-index: 2;
+    position: relative;
+}
+    .video {
+        position: fixed;
+        top: 50%; left: 50%;
+        z-index: 1;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        transform: translate(-50%, -50%);
+    }
+            .card {
+            box-shadow: 0 px 8px 0 rgba(112, 155, 12, 0.2), 5 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 1px 5px 20px 1px #00a8ff;
+            max-width: 400px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+            margin-top: 50px;
+            background-color: #ffffff;
+            border-radius: 25px;
+            
+        }
+        
+        .foto {
+            filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.2));
+            border: 2px solid black;
+            width: 50%;
+            max-width: 100%;
+            height: 60%;
+            border-radius: 50%;
+            margin-top: 50px;
+            background-image: url("https://1.bp.blogspot.com/-xVkb4MEfDh8/XETBSC1DJsI/AAAAAAAABvQ/PzYNE1LX-y83GzYT2u_bCfOESlc_ec3QQCLcBGAs/s1600/f0ffdf1861285e8679f3494bba777962aa993825_hq.gif");
+            border-width: 5px;
+            border-style: double;
+            border-style: solid;
+            border-color: #e1b12c;
+        }
+        
+        .bio {
+            font-size: 16px;
+            margin: 10px;
+        }
+        
+        .title {
+            color: #1e272e;
+            font-size: 18px;
+        }
+        
+        button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #485460;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+        
+        .univ {
+            color: #1B1464;
+            font-size: 18px;
+        }
+        
+        button:hover,
+        a:hover {
+            background-color: #e1b12c;
+            color: black;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <video id="my-video" class="video" autoplay muted loop>
+        <source src="video/Datos.mov" type="video/mp4">
+     </video>
+
+    <div class="card">
+        <img class="foto" src="imagenes/Juancito-transp.png" alt="Juancito">
+        <h1>Juancito Peña V.</h1>
+        <p class="title">Master of Systems Engineering</p>
+        <p class="univ"> <strong> <a href="https://www.udoym.edu.do/">Universidad Dominicana O&M</a></strong></p>
+        <p class="bio">
+            <strong> Apacionado por el Data Analyst</strong> (SQL, Excel, Power BI, R, Python, RapidMiner) | <strong> Amante de la Tecnologias</strong> (HTML, CSS, Javascript, Bootstrap, PHP, Wordpress)</strong>|Technology Teacher |
+        </p>
+
+
+        <!-- some social links to show off -->
+        <div style="margin: 24px 0;">
+            <a target="_blank" href="https://github.com/JUANCITOPENA"><i class="fa fa-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/juancitope%C3%B1a/"><i class="fa fa-linkedin"></i></a>
+            <a target="_blank" href="https://www.facebook.com/juancito.p.v"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://twitter.com/JuancitoPenaV"><i class="fa fa-twitter"></i></a>
+            <a target="_blank" href="https://www.instagram.com/juancito.pena.v/"><i class="fa fa-instagram"></i></a>
+            <a target="_blank" href=" https://chat.whatsapp.com/GrzUtfJXvTDFPW1jSa3NWR"><i class="fa fa-whatsapp"></i></a>
+        </div>
+       
+
+        <p class="portafolio">
+            <a target="_blank" href="portafolio.html">
+                <button>Ir al Portafolio Power BI</button>
+            </a>
+
+        </p>
+    </div>
+
+</body>
+
+</html>
