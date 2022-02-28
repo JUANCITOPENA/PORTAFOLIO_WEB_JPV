@@ -6,6 +6,6 @@ PORTAFOLIO_WEB_JPV CON TECNOLOGIAS HTML, CSS, JAVASCRIP, BOOTSTRAP, ANGULAR, SQL
 Archios Excel, CSV, Web, uso de APIs, y diferentes analisis de datos.
 
 
-![](imagenes/"PORTAFOLIO DE POWER BI.png")
+![](imagenes/PORTAFOLIODEPOWER BI.png)
 
 " URL al Proyecto: https://juancitopena.github.io/Buscar_Movies_OMDb_API/"
