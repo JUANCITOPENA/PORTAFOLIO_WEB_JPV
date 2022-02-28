@@ -219,11 +219,12 @@ a {
     .click{
         background-color:#fed330;
         height:100px;
-        line-height: 50%;
+        line-height: 50px;
         border-radius: 25px;
         color:black;
         font-weight:bold;
-        font-size: 1.875em;
+        font-size: 20px;
+
         text-shadow: 0 0 0.2em red;
         box-shadow: 0 0 20px #4f9;
     }
