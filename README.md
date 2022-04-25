@@ -11,4 +11,7 @@ Archios Excel, CSV, Web, uso de APIs, y diferentes analisis de datos.
 ## CAPTURA DE PANTALLA # 2
 ![](imagenes/PORTAFOLIODEPOWERBI.png)
 
+## CAPTURA DE PANTALLA # 3
+![](imagenes/PROYECTOS_BI.png)
+
 " URL al Proyecto: https://juancitopena.github.io/PORTAFOLIO_WEB_JPV/"
