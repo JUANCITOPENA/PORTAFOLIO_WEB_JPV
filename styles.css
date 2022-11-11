@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+.container{
+    background-color:rgb(236, 236, 230);
+    height: 0 auto;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    /*border: 5px solid black;*/
+}
 body {
     font-family: sans-serif;
     padding-top: 25px;
@@ -167,13 +177,14 @@ h2 {
 footer {
     width: 100%;
     height: 60px;
-    background-color: #fed330;
+    background-color:rgb(227, 227, 40);
     display: inline-block;
     color: black;
     clear: both;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 30px;
+    margin-bottom:20px;
     margin-top: 25px;
     line-height: 20px;
     border-radius: 25px;
